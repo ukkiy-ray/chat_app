@@ -12,12 +12,41 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name a {
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.chat-post-btn {
+  font-size: 10px;
+}
+
+.chat-post-btn a {
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .rooms {
   background-color: #2f3e51;
   height: calc(100vh - 100px);
-  padding: 0 2opx;
+  padding: 20px 20px 0 20px;
+}
+
+.rooms-index {
+  list-style: none;
+  color: white;
+}
+
+.rooms-list {
+  margin-bottom: 40px;
 }
 
 /* message ==============================*/
