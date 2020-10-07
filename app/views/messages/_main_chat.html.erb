@@ -7,22 +7,7 @@
   </div>
 </div>
 <div class="messages">
-  <ul class="message-index">
-    <li class="message-list">
-        <div class="message-details">
-          <div class="message-name">Tom</div>
-          <div class="message-created-at">2020/10/07(wed) 12:43:30</div>
-        </div>
-        <div class="message-content">Hello World.</div>
-    </li>
-    <li class="message-list">
-        <div class="message-details">
-          <div class="message-name">Lisa</div>
-          <div class="message-created-at">2020/10/07(wed) 12:45:30</div>
-        </div>
-        <div class="message-content">VEAH.</div>
-    </li>
-  </ul>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 <div class="chat-footer">
   <%= form_with model: [@room, @message], class: 'form', local: true do |f| %>
