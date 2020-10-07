@@ -42,11 +42,15 @@
 
 .rooms-index {
   list-style: none;
-  color: white;
 }
 
 .rooms-list {
   margin-bottom: 40px;
+}
+
+.room-name {
+  text-decoration: none;
+  color: white;
 }
 
 /* message ==============================*/
@@ -115,6 +119,11 @@
   display: flex;
 }
 
+.form {
+  width: 100%;
+  display: flex;
+}
+
 .form-input {
   background-color: white;
   width: 100%;
@@ -143,7 +152,7 @@
   display: none;
 }
 
-.form-btn {
+.form-submit {
   font-size: 16px;
   color: white;
   background-color: #38aef0;
