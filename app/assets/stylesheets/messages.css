@@ -83,10 +83,6 @@
   overflow: scroll;
 }
 
-.message-index {
-  list-style: none;
-}
-
 .message-list {
   margin-bottom: 40px;
   padding: 10px 0;
