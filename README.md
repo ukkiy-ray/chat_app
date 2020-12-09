@@ -1,27 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーションの概要
+- このアプリケーションは、写真付きメッセージ投稿機能・チャットルーム作成、削除機能・ユーザー管理機能を備えたチャットアプリケーションです。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### チャット機能の挙動(Gif)
+[![Image from Gyazo](https://i.gyazo.com/3687fa9c9e70edd39189ba40ef1244c2.gif)](https://gyazo.com/3687fa9c9e70edd39189ba40ef1244c2)
 
 # テーブル設計
 
